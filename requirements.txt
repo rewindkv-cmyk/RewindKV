@@ -1,0 +1,17 @@
+torch==2.6.0
+transformers==4.45.0
+accelerate==1.0.1
+fire==0.7.0
+numpy
+tqdm
+
+# AIME scoring
+sympy
+regex
+word2number
+Pebble
+timeout-decorator
+latex2sympy2==1.9.1
+
+# flash-attn must match your CUDA / torch build, install it separately:
+# pip install flash-attn==2.7.4.post1 --no-build-isolation
